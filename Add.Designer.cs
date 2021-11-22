@@ -46,99 +46,88 @@
             // addNameLabel
             // 
             this.addNameLabel.AutoSize = true;
-            this.addNameLabel.Location = new System.Drawing.Point(60, 50);
-            this.addNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.addNameLabel.Location = new System.Drawing.Point(45, 41);
             this.addNameLabel.Name = "addNameLabel";
-            this.addNameLabel.Size = new System.Drawing.Size(45, 17);
+            this.addNameLabel.Size = new System.Drawing.Size(35, 13);
             this.addNameLabel.TabIndex = 0;
             this.addNameLabel.Text = "Name";
             // 
             // addNameText
             // 
-            this.addNameText.Location = new System.Drawing.Point(279, 47);
-            this.addNameText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addNameText.Location = new System.Drawing.Point(209, 38);
             this.addNameText.Name = "addNameText";
-            this.addNameText.Size = new System.Drawing.Size(336, 22);
+            this.addNameText.Size = new System.Drawing.Size(253, 20);
             this.addNameText.TabIndex = 6;
             // 
             // addIdText
             // 
-            this.addIdText.Location = new System.Drawing.Point(279, 113);
-            this.addIdText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addIdText.Location = new System.Drawing.Point(209, 92);
             this.addIdText.Name = "addIdText";
-            this.addIdText.Size = new System.Drawing.Size(336, 22);
+            this.addIdText.Size = new System.Drawing.Size(253, 20);
             this.addIdText.TabIndex = 7;
             // 
             // addDescriptionText
             // 
-            this.addDescriptionText.Location = new System.Drawing.Point(279, 182);
-            this.addDescriptionText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addDescriptionText.Location = new System.Drawing.Point(209, 148);
             this.addDescriptionText.Name = "addDescriptionText";
-            this.addDescriptionText.Size = new System.Drawing.Size(336, 22);
+            this.addDescriptionText.Size = new System.Drawing.Size(253, 20);
             this.addDescriptionText.TabIndex = 8;
             // 
             // addQuantitytext
             // 
-            this.addQuantitytext.Location = new System.Drawing.Point(279, 250);
-            this.addQuantitytext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addQuantitytext.Location = new System.Drawing.Point(209, 203);
             this.addQuantitytext.Name = "addQuantitytext";
-            this.addQuantitytext.Size = new System.Drawing.Size(336, 22);
+            this.addQuantitytext.Size = new System.Drawing.Size(253, 20);
             this.addQuantitytext.TabIndex = 9;
             // 
             // addPriceText
             // 
-            this.addPriceText.Location = new System.Drawing.Point(279, 318);
-            this.addPriceText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addPriceText.Location = new System.Drawing.Point(209, 258);
             this.addPriceText.Name = "addPriceText";
-            this.addPriceText.Size = new System.Drawing.Size(336, 22);
+            this.addPriceText.Size = new System.Drawing.Size(253, 20);
             this.addPriceText.TabIndex = 10;
             // 
             // addIdLabel
             // 
             this.addIdLabel.AutoSize = true;
-            this.addIdLabel.Location = new System.Drawing.Point(60, 117);
-            this.addIdLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.addIdLabel.Location = new System.Drawing.Point(45, 95);
             this.addIdLabel.Name = "addIdLabel";
-            this.addIdLabel.Size = new System.Drawing.Size(21, 17);
+            this.addIdLabel.Size = new System.Drawing.Size(18, 13);
             this.addIdLabel.TabIndex = 11;
             this.addIdLabel.Text = "ID";
             // 
             // addDescriptionLabel
             // 
             this.addDescriptionLabel.AutoSize = true;
-            this.addDescriptionLabel.Location = new System.Drawing.Point(60, 186);
-            this.addDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.addDescriptionLabel.Location = new System.Drawing.Point(45, 151);
             this.addDescriptionLabel.Name = "addDescriptionLabel";
-            this.addDescriptionLabel.Size = new System.Drawing.Size(79, 17);
+            this.addDescriptionLabel.Size = new System.Drawing.Size(60, 13);
             this.addDescriptionLabel.TabIndex = 12;
             this.addDescriptionLabel.Text = "Description";
             // 
             // addQuantityLabel
             // 
             this.addQuantityLabel.AutoSize = true;
-            this.addQuantityLabel.Location = new System.Drawing.Point(60, 254);
-            this.addQuantityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.addQuantityLabel.Location = new System.Drawing.Point(45, 206);
             this.addQuantityLabel.Name = "addQuantityLabel";
-            this.addQuantityLabel.Size = new System.Drawing.Size(61, 17);
+            this.addQuantityLabel.Size = new System.Drawing.Size(46, 13);
             this.addQuantityLabel.TabIndex = 13;
             this.addQuantityLabel.Text = "Quantity";
             // 
             // addPriceLabel
             // 
             this.addPriceLabel.AutoSize = true;
-            this.addPriceLabel.Location = new System.Drawing.Point(60, 321);
-            this.addPriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.addPriceLabel.Location = new System.Drawing.Point(45, 261);
             this.addPriceLabel.Name = "addPriceLabel";
-            this.addPriceLabel.Size = new System.Drawing.Size(40, 17);
+            this.addPriceLabel.Size = new System.Drawing.Size(31, 13);
             this.addPriceLabel.TabIndex = 14;
             this.addPriceLabel.Text = "Price";
             // 
             // addProductButton
             // 
-            this.addProductButton.Location = new System.Drawing.Point(64, 405);
-            this.addProductButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addProductButton.Location = new System.Drawing.Point(48, 329);
             this.addProductButton.Name = "addProductButton";
-            this.addProductButton.Size = new System.Drawing.Size(187, 36);
+            this.addProductButton.Size = new System.Drawing.Size(140, 29);
             this.addProductButton.TabIndex = 15;
             this.addProductButton.Text = "ADD PRODUCT";
             this.addProductButton.UseVisualStyleBackColor = true;
@@ -146,9 +135,9 @@
             // 
             // Add
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.addProductButton);
             this.Controls.Add(this.addPriceLabel);
             this.Controls.Add(this.addQuantityLabel);
@@ -161,7 +150,6 @@
             this.Controls.Add(this.addNameText);
             this.Controls.Add(this.addNameLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Add";
             this.Text = "Add Product";
             this.Load += new System.EventHandler(this.Add_Load);

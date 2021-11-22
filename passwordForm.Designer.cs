@@ -37,7 +37,7 @@
             // passwordText
             // 
             this.passwordText.Location = new System.Drawing.Point(262, 193);
-            this.passwordText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordText.Margin = new System.Windows.Forms.Padding(2);
             this.passwordText.Name = "passwordText";
             this.passwordText.Size = new System.Drawing.Size(118, 20);
             this.passwordText.TabIndex = 0;
@@ -46,7 +46,7 @@
             // passwordButton
             // 
             this.passwordButton.Location = new System.Drawing.Point(385, 193);
-            this.passwordButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordButton.Margin = new System.Windows.Forms.Padding(2);
             this.passwordButton.Name = "passwordButton";
             this.passwordButton.Size = new System.Drawing.Size(56, 19);
             this.passwordButton.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.Controls.Add(this.passwordButton);
             this.Controls.Add(this.passwordText);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "passwordForm";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form2_Load);

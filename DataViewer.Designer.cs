@@ -40,18 +40,20 @@
             // 
             // dataViewerText
             // 
-            this.dataViewerText.Location = new System.Drawing.Point(53, 58);
+            this.dataViewerText.Location = new System.Drawing.Point(40, 47);
+            this.dataViewerText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataViewerText.Multiline = true;
             this.dataViewerText.Name = "dataViewerText";
-            this.dataViewerText.Size = new System.Drawing.Size(349, 311);
+            this.dataViewerText.Size = new System.Drawing.Size(263, 253);
             this.dataViewerText.TabIndex = 0;
             // 
             // TXTradioButton
             // 
             this.TXTradioButton.AutoSize = true;
-            this.TXTradioButton.Location = new System.Drawing.Point(6, 24);
+            this.TXTradioButton.Location = new System.Drawing.Point(4, 20);
+            this.TXTradioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TXTradioButton.Name = "TXTradioButton";
-            this.TXTradioButton.Size = new System.Drawing.Size(47, 21);
+            this.TXTradioButton.Size = new System.Drawing.Size(39, 17);
             this.TXTradioButton.TabIndex = 1;
             this.TXTradioButton.TabStop = true;
             this.TXTradioButton.Text = ".txt";
@@ -60,9 +62,10 @@
             // JSONradioButton
             // 
             this.JSONradioButton.AutoSize = true;
-            this.JSONradioButton.Location = new System.Drawing.Point(6, 51);
+            this.JSONradioButton.Location = new System.Drawing.Point(4, 41);
+            this.JSONradioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.JSONradioButton.Name = "JSONradioButton";
-            this.JSONradioButton.Size = new System.Drawing.Size(55, 21);
+            this.JSONradioButton.Size = new System.Drawing.Size(44, 17);
             this.JSONradioButton.TabIndex = 2;
             this.JSONradioButton.TabStop = true;
             this.JSONradioButton.Text = "json";
@@ -71,9 +74,10 @@
             // XMLradioButton
             // 
             this.XMLradioButton.AutoSize = true;
-            this.XMLradioButton.Location = new System.Drawing.Point(6, 78);
+            this.XMLradioButton.Location = new System.Drawing.Point(4, 63);
+            this.XMLradioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.XMLradioButton.Name = "XMLradioButton";
-            this.XMLradioButton.Size = new System.Drawing.Size(49, 21);
+            this.XMLradioButton.Size = new System.Drawing.Size(40, 17);
             this.XMLradioButton.TabIndex = 3;
             this.XMLradioButton.TabStop = true;
             this.XMLradioButton.Text = "xml";
@@ -84,18 +88,21 @@
             this.groupBox1.Controls.Add(this.TXTradioButton);
             this.groupBox1.Controls.Add(this.XMLradioButton);
             this.groupBox1.Controls.Add(this.JSONradioButton);
-            this.groupBox1.Location = new System.Drawing.Point(484, 70);
+            this.groupBox1.Location = new System.Drawing.Point(363, 57);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(142, 112);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(106, 91);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.GroupBox1_Enter);
             // 
             // showDataButton
             // 
-            this.showDataButton.Location = new System.Drawing.Point(484, 197);
+            this.showDataButton.Location = new System.Drawing.Point(363, 160);
+            this.showDataButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showDataButton.Name = "showDataButton";
-            this.showDataButton.Size = new System.Drawing.Size(75, 23);
+            this.showDataButton.Size = new System.Drawing.Size(56, 19);
             this.showDataButton.TabIndex = 6;
             this.showDataButton.Text = "Show";
             this.showDataButton.UseVisualStyleBackColor = true;
@@ -103,13 +110,14 @@
             // 
             // DataViewer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.showDataButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataViewerText);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DataViewer";
             this.Text = "Data Viewer";
             this.groupBox1.ResumeLayout(false);

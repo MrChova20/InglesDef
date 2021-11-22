@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\Properties",
+    "\\Resources"
   ],
+  "SelectedNode": "\\Modify.cs",
   "PreviewInSolutionExplorer": false
 }
