@@ -85,7 +85,7 @@
             // aboutUsButton
             // 
             this.aboutUsButton.Location = new System.Drawing.Point(658, 427);
-            this.aboutUsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.aboutUsButton.Margin = new System.Windows.Forms.Padding(2);
             this.aboutUsButton.Name = "aboutUsButton";
             this.aboutUsButton.Size = new System.Drawing.Size(90, 19);
             this.aboutUsButton.TabIndex = 28;
@@ -96,7 +96,7 @@
             // discountText
             // 
             this.discountText.Location = new System.Drawing.Point(658, 74);
-            this.discountText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.discountText.Margin = new System.Windows.Forms.Padding(2);
             this.discountText.Name = "discountText";
             this.discountText.Size = new System.Drawing.Size(54, 20);
             this.discountText.TabIndex = 29;
@@ -114,7 +114,7 @@
             // applyDiscountButton
             // 
             this.applyDiscountButton.Location = new System.Drawing.Point(567, 70);
-            this.applyDiscountButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.applyDiscountButton.Margin = new System.Windows.Forms.Padding(2);
             this.applyDiscountButton.Name = "applyDiscountButton";
             this.applyDiscountButton.Size = new System.Drawing.Size(86, 22);
             this.applyDiscountButton.TabIndex = 31;
@@ -125,7 +125,7 @@
             // raisePriceText
             // 
             this.raisePriceText.Location = new System.Drawing.Point(658, 98);
-            this.raisePriceText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.raisePriceText.Margin = new System.Windows.Forms.Padding(2);
             this.raisePriceText.Name = "raisePriceText";
             this.raisePriceText.Size = new System.Drawing.Size(54, 20);
             this.raisePriceText.TabIndex = 32;
@@ -143,7 +143,7 @@
             // raisePricesButton
             // 
             this.raisePricesButton.Location = new System.Drawing.Point(567, 95);
-            this.raisePricesButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.raisePricesButton.Margin = new System.Windows.Forms.Padding(2);
             this.raisePricesButton.Name = "raisePricesButton";
             this.raisePricesButton.Size = new System.Drawing.Size(86, 20);
             this.raisePricesButton.TabIndex = 34;
@@ -154,7 +154,7 @@
             // dataViewerButton
             // 
             this.dataViewerButton.Location = new System.Drawing.Point(567, 219);
-            this.dataViewerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataViewerButton.Margin = new System.Windows.Forms.Padding(2);
             this.dataViewerButton.Name = "dataViewerButton";
             this.dataViewerButton.Size = new System.Drawing.Size(124, 29);
             this.dataViewerButton.TabIndex = 35;
@@ -191,9 +191,9 @@
             this.Controls.Add(this.removeButton);
             this.Controls.Add(this.itemList);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
-            this.Text = "Mercadona";
+            this.Text = "foot locker";
             this.ResumeLayout(false);
             this.PerformLayout();
 
