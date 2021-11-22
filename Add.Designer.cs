@@ -58,6 +58,7 @@
             this.addNameText.Name = "addNameText";
             this.addNameText.Size = new System.Drawing.Size(253, 20);
             this.addNameText.TabIndex = 6;
+            this.addNameText.TextChanged += new System.EventHandler(this.addNameText_TextChanged);
             // 
             // addIdText
             // 

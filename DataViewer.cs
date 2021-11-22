@@ -75,5 +75,10 @@ namespace FinalCountdown
            
             
         }
+
+        private void TXTradioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

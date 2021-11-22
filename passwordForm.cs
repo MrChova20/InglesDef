@@ -28,7 +28,7 @@ namespace FinalCountdown
         private void Button1_Click(object sender, EventArgs e)
         {
             string password = passwordText.Text;
-            if (password == "hola")
+            if (password == "developer")
             {
 
                 this.Close();

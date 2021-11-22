@@ -46,7 +46,7 @@
             // 
             // modifyButton
             // 
-            this.modifyButton.Location = new System.Drawing.Point(320, 391);
+            this.modifyButton.Location = new System.Drawing.Point(492, 309);
             this.modifyButton.Name = "modifyButton";
             this.modifyButton.Size = new System.Drawing.Size(140, 29);
             this.modifyButton.TabIndex = 26;
@@ -56,7 +56,7 @@
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(16, 391);
+            this.addButton.Location = new System.Drawing.Point(492, 74);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(140, 29);
             this.addButton.TabIndex = 19;
@@ -66,7 +66,7 @@
             // 
             // removeButton
             // 
-            this.removeButton.Location = new System.Drawing.Point(172, 391);
+            this.removeButton.Location = new System.Drawing.Point(492, 189);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(142, 29);
             this.removeButton.TabIndex = 18;
@@ -84,7 +84,7 @@
             // 
             // aboutUsButton
             // 
-            this.aboutUsButton.Location = new System.Drawing.Point(658, 427);
+            this.aboutUsButton.Location = new System.Drawing.Point(656, 11);
             this.aboutUsButton.Margin = new System.Windows.Forms.Padding(2);
             this.aboutUsButton.Name = "aboutUsButton";
             this.aboutUsButton.Size = new System.Drawing.Size(90, 19);
@@ -95,7 +95,7 @@
             // 
             // discountText
             // 
-            this.discountText.Location = new System.Drawing.Point(658, 74);
+            this.discountText.Location = new System.Drawing.Point(185, 378);
             this.discountText.Margin = new System.Windows.Forms.Padding(2);
             this.discountText.Name = "discountText";
             this.discountText.Size = new System.Drawing.Size(54, 20);
@@ -104,7 +104,7 @@
             // ampersand1
             // 
             this.ampersand1.AutoSize = true;
-            this.ampersand1.Location = new System.Drawing.Point(716, 74);
+            this.ampersand1.Location = new System.Drawing.Point(243, 436);
             this.ampersand1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ampersand1.Name = "ampersand1";
             this.ampersand1.Size = new System.Drawing.Size(15, 13);
@@ -113,7 +113,7 @@
             // 
             // applyDiscountButton
             // 
-            this.applyDiscountButton.Location = new System.Drawing.Point(567, 70);
+            this.applyDiscountButton.Location = new System.Drawing.Point(65, 378);
             this.applyDiscountButton.Margin = new System.Windows.Forms.Padding(2);
             this.applyDiscountButton.Name = "applyDiscountButton";
             this.applyDiscountButton.Size = new System.Drawing.Size(86, 22);
@@ -124,7 +124,7 @@
             // 
             // raisePriceText
             // 
-            this.raisePriceText.Location = new System.Drawing.Point(658, 98);
+            this.raisePriceText.Location = new System.Drawing.Point(185, 433);
             this.raisePriceText.Margin = new System.Windows.Forms.Padding(2);
             this.raisePriceText.Name = "raisePriceText";
             this.raisePriceText.Size = new System.Drawing.Size(54, 20);
@@ -133,7 +133,7 @@
             // ampersand2
             // 
             this.ampersand2.AutoSize = true;
-            this.ampersand2.Location = new System.Drawing.Point(716, 98);
+            this.ampersand2.Location = new System.Drawing.Point(243, 381);
             this.ampersand2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ampersand2.Name = "ampersand2";
             this.ampersand2.Size = new System.Drawing.Size(15, 13);
@@ -142,7 +142,7 @@
             // 
             // raisePricesButton
             // 
-            this.raisePricesButton.Location = new System.Drawing.Point(567, 95);
+            this.raisePricesButton.Location = new System.Drawing.Point(65, 435);
             this.raisePricesButton.Margin = new System.Windows.Forms.Padding(2);
             this.raisePricesButton.Name = "raisePricesButton";
             this.raisePricesButton.Size = new System.Drawing.Size(86, 20);
@@ -153,7 +153,7 @@
             // 
             // dataViewerButton
             // 
-            this.dataViewerButton.Location = new System.Drawing.Point(567, 219);
+            this.dataViewerButton.Location = new System.Drawing.Point(583, 433);
             this.dataViewerButton.Margin = new System.Windows.Forms.Padding(2);
             this.dataViewerButton.Name = "dataViewerButton";
             this.dataViewerButton.Size = new System.Drawing.Size(124, 29);
@@ -168,9 +168,10 @@
             this.inventoryLabel.Location = new System.Drawing.Point(16, 54);
             this.inventoryLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.inventoryLabel.Name = "inventoryLabel";
-            this.inventoryLabel.Size = new System.Drawing.Size(73, 13);
+            this.inventoryLabel.Size = new System.Drawing.Size(63, 13);
             this.inventoryLabel.TabIndex = 36;
-            this.inventoryLabel.Text = "Inventory List:";
+            this.inventoryLabel.Text = "Product List";
+            this.inventoryLabel.Click += new System.EventHandler(this.inventoryLabel_Click);
             // 
             // MainForm
             // 

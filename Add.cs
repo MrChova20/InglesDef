@@ -111,5 +111,10 @@ namespace FinalCountdown
                 MessageBox.Show("It's blank or the name is not in the correct format", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void addNameText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
