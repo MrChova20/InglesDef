@@ -63,6 +63,7 @@
             this.passwordLabel.Size = new System.Drawing.Size(130, 13);
             this.passwordLabel.TabIndex = 2;
             this.passwordLabel.Text = "Enter your password here:";
+            this.passwordLabel.Click += new System.EventHandler(this.passwordLabel_Click);
             // 
             // passwordForm
             // 
