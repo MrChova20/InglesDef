@@ -59,10 +59,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(109, 10);
+            this.pictureBox1.Image = global::FinalCountdown.Properties.Resources.DEPORTE_LOGOS_03;
+            this.pictureBox1.Location = new System.Drawing.Point(83, -14);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(429, 276);
+            this.pictureBox1.Size = new System.Drawing.Size(459, 316);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
