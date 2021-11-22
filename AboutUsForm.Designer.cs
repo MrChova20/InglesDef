@@ -38,20 +38,19 @@
             // infoLabel
             // 
             this.infoLabel.AutoSize = true;
-            this.infoLabel.Location = new System.Drawing.Point(366, 588);
-            this.infoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.infoLabel.Location = new System.Drawing.Point(245, 470);
             this.infoLabel.Name = "infoLabel";
-            this.infoLabel.Size = new System.Drawing.Size(610, 25);
+            this.infoLabel.Size = new System.Drawing.Size(435, 20);
             this.infoLabel.TabIndex = 1;
-            this.infoLabel.Text = "This program was made by Alex Domínguez and Joel Sánchez";
+            this.infoLabel.Text = "This proyect was made by Alvaro escribano and Pablo Chova";
             this.infoLabel.Click += new System.EventHandler(this.infoLabel_Click);
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(18, 19);
-            this.backButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.backButton.Location = new System.Drawing.Point(14, 15);
+            this.backButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(112, 36);
+            this.backButton.Size = new System.Drawing.Size(84, 29);
             this.backButton.TabIndex = 2;
             this.backButton.Text = "< Back";
             this.backButton.UseVisualStyleBackColor = true;
@@ -59,28 +58,29 @@
             // 
             // companyLogo
             // 
-            this.companyLogo.Image = global::FinalCountdown.Properties.Resources.logo;
+            this.companyLogo.Image = global::FinalCountdown.Properties.Resources.DEPORTE_LOGOS_03;
             this.companyLogo.InitialImage = ((System.Drawing.Image)(resources.GetObject("companyLogo.InitialImage")));
-            this.companyLogo.Location = new System.Drawing.Point(392, 150);
-            this.companyLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.companyLogo.Location = new System.Drawing.Point(230, 15);
+            this.companyLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.companyLogo.Name = "companyLogo";
-            this.companyLogo.Size = new System.Drawing.Size(259, 194);
+            this.companyLogo.Size = new System.Drawing.Size(501, 501);
             this.companyLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.companyLogo.TabIndex = 0;
             this.companyLogo.TabStop = false;
             // 
             // AboutUsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.companyLogo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AboutUsForm";
             this.Text = "About us";
+            this.Load += new System.EventHandler(this.AboutUsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.companyLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

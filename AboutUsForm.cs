@@ -26,5 +26,10 @@ namespace FinalCountdown
         {
 
         }
+
+        private void AboutUsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
