@@ -1,4 +1,4 @@
-﻿namespace FinalCountdown
+﻿namespace EscribanoChova
 {
     partial class MainForm
     {
@@ -50,7 +50,7 @@
             this.modifyButton.Name = "modifyButton";
             this.modifyButton.Size = new System.Drawing.Size(140, 29);
             this.modifyButton.TabIndex = 26;
-            this.modifyButton.Text = "MODIFY INFORMATION";
+            this.modifyButton.Text = "EDIT INFORMATION";
             this.modifyButton.UseVisualStyleBackColor = true;
             this.modifyButton.Click += new System.EventHandler(this.Button4_Click_1);
             // 

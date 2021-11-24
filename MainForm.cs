@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
-namespace FinalCountdown
+namespace EscribanoChova
 {
     public partial class MainForm : Form
     {
@@ -17,7 +10,7 @@ namespace FinalCountdown
         public MainForm()
         {
             InitializeComponent();
-            passwordForm childWindow = new passwordForm();
+            PasswordForm childWindow = new PasswordForm();
             childWindow.ShowDialog(this);
           
         }

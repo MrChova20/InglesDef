@@ -1,4 +1,4 @@
-﻿namespace FinalCountdown
+﻿namespace EscribanoChova
 {
     partial class Modify
     {
@@ -48,6 +48,9 @@
             this.modifyQuantityButton = new System.Windows.Forms.Button();
             this.modifyPriceButton = new System.Windows.Forms.Button();
             this.modifyBackButton = new System.Windows.Forms.Button();
+            this.modifyManufacturerLabel = new System.Windows.Forms.Label();
+            this.modifyManufacturerText = new System.Windows.Forms.TextBox();
+            this.modifyManufacturerButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // modifyNameButton
@@ -63,7 +66,7 @@
             // modifyPriceLabel
             // 
             this.modifyPriceLabel.AutoSize = true;
-            this.modifyPriceLabel.Location = new System.Drawing.Point(44, 261);
+            this.modifyPriceLabel.Location = new System.Drawing.Point(44, 286);
             this.modifyPriceLabel.Name = "modifyPriceLabel";
             this.modifyPriceLabel.Size = new System.Drawing.Size(31, 13);
             this.modifyPriceLabel.TabIndex = 26;
@@ -72,11 +75,11 @@
             // modifyQuantityLabel
             // 
             this.modifyQuantityLabel.AutoSize = true;
-            this.modifyQuantityLabel.Location = new System.Drawing.Point(44, 206);
+            this.modifyQuantityLabel.Location = new System.Drawing.Point(44, 245);
             this.modifyQuantityLabel.Name = "modifyQuantityLabel";
-            this.modifyQuantityLabel.Size = new System.Drawing.Size(46, 13);
+            this.modifyQuantityLabel.Size = new System.Drawing.Size(86, 13);
             this.modifyQuantityLabel.TabIndex = 25;
-            this.modifyQuantityLabel.Text = "Quantity";
+            this.modifyQuantityLabel.Text = "Quantity in stock";
             // 
             // modifyDescriptionLabel
             // 
@@ -98,14 +101,14 @@
             // 
             // modifyPriceText
             // 
-            this.modifyPriceText.Location = new System.Drawing.Point(208, 258);
+            this.modifyPriceText.Location = new System.Drawing.Point(208, 291);
             this.modifyPriceText.Name = "modifyPriceText";
             this.modifyPriceText.Size = new System.Drawing.Size(253, 20);
             this.modifyPriceText.TabIndex = 22;
             // 
             // modifyQuantityText
             // 
-            this.modifyQuantityText.Location = new System.Drawing.Point(208, 203);
+            this.modifyQuantityText.Location = new System.Drawing.Point(208, 245);
             this.modifyQuantityText.Name = "modifyQuantityText";
             this.modifyQuantityText.Size = new System.Drawing.Size(253, 20);
             this.modifyQuantityText.TabIndex = 21;
@@ -116,6 +119,7 @@
             this.modifyDescriptionText.Name = "modifyDescriptionText";
             this.modifyDescriptionText.Size = new System.Drawing.Size(253, 20);
             this.modifyDescriptionText.TabIndex = 20;
+            this.modifyDescriptionText.TextChanged += new System.EventHandler(this.modifyDescriptionText_TextChanged);
             // 
             // modifyIdText
             // 
@@ -142,14 +146,14 @@
             // 
             // modifyDiscountText
             // 
-            this.modifyDiscountText.Location = new System.Drawing.Point(208, 308);
+            this.modifyDiscountText.Location = new System.Drawing.Point(208, 338);
             this.modifyDiscountText.Name = "modifyDiscountText";
             this.modifyDiscountText.Size = new System.Drawing.Size(253, 20);
             this.modifyDiscountText.TabIndex = 29;
             // 
             // modifyDiscountButton
             // 
-            this.modifyDiscountButton.Location = new System.Drawing.Point(483, 303);
+            this.modifyDiscountButton.Location = new System.Drawing.Point(483, 338);
             this.modifyDiscountButton.Name = "modifyDiscountButton";
             this.modifyDiscountButton.Size = new System.Drawing.Size(140, 29);
             this.modifyDiscountButton.TabIndex = 30;
@@ -160,11 +164,12 @@
             // modifyDiscountLabel
             // 
             this.modifyDiscountLabel.AutoSize = true;
-            this.modifyDiscountLabel.Location = new System.Drawing.Point(44, 311);
+            this.modifyDiscountLabel.Location = new System.Drawing.Point(44, 338);
             this.modifyDiscountLabel.Name = "modifyDiscountLabel";
             this.modifyDiscountLabel.Size = new System.Drawing.Size(49, 13);
             this.modifyDiscountLabel.TabIndex = 28;
             this.modifyDiscountLabel.Text = "Discount";
+            this.modifyDiscountLabel.Click += new System.EventHandler(this.modifyDiscountLabel_Click);
             // 
             // modifyIdButton
             // 
@@ -188,7 +193,7 @@
             // 
             // modifyQuantityButton
             // 
-            this.modifyQuantityButton.Location = new System.Drawing.Point(483, 198);
+            this.modifyQuantityButton.Location = new System.Drawing.Point(483, 236);
             this.modifyQuantityButton.Name = "modifyQuantityButton";
             this.modifyQuantityButton.Size = new System.Drawing.Size(140, 29);
             this.modifyQuantityButton.TabIndex = 33;
@@ -198,7 +203,7 @@
             // 
             // modifyPriceButton
             // 
-            this.modifyPriceButton.Location = new System.Drawing.Point(483, 253);
+            this.modifyPriceButton.Location = new System.Drawing.Point(483, 286);
             this.modifyPriceButton.Name = "modifyPriceButton";
             this.modifyPriceButton.Size = new System.Drawing.Size(140, 29);
             this.modifyPriceButton.TabIndex = 34;
@@ -208,7 +213,7 @@
             // 
             // modifyBackButton
             // 
-            this.modifyBackButton.Location = new System.Drawing.Point(483, 358);
+            this.modifyBackButton.Location = new System.Drawing.Point(483, 398);
             this.modifyBackButton.Name = "modifyBackButton";
             this.modifyBackButton.Size = new System.Drawing.Size(140, 29);
             this.modifyBackButton.TabIndex = 35;
@@ -216,11 +221,42 @@
             this.modifyBackButton.UseVisualStyleBackColor = true;
             this.modifyBackButton.Click += new System.EventHandler(this.Button7_Click_1);
             // 
+            // modifyManufacturerLabel
+            // 
+            this.modifyManufacturerLabel.AutoSize = true;
+            this.modifyManufacturerLabel.Location = new System.Drawing.Point(44, 198);
+            this.modifyManufacturerLabel.Name = "modifyManufacturerLabel";
+            this.modifyManufacturerLabel.Size = new System.Drawing.Size(70, 13);
+            this.modifyManufacturerLabel.TabIndex = 36;
+            this.modifyManufacturerLabel.Text = "Manufacturer";
+            this.modifyManufacturerLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // modifyManufacturerText
+            // 
+            this.modifyManufacturerText.Location = new System.Drawing.Point(208, 195);
+            this.modifyManufacturerText.Name = "modifyManufacturerText";
+            this.modifyManufacturerText.Size = new System.Drawing.Size(253, 20);
+            this.modifyManufacturerText.TabIndex = 37;
+            this.modifyManufacturerText.TextChanged += new System.EventHandler(this.modifyManufacturerText_TextChanged);
+            // 
+            // modifyManufacturerButton
+            // 
+            this.modifyManufacturerButton.Location = new System.Drawing.Point(483, 194);
+            this.modifyManufacturerButton.Name = "modifyManufacturerButton";
+            this.modifyManufacturerButton.Size = new System.Drawing.Size(140, 29);
+            this.modifyManufacturerButton.TabIndex = 38;
+            this.modifyManufacturerButton.Text = "EDIT";
+            this.modifyManufacturerButton.UseVisualStyleBackColor = true;
+            this.modifyManufacturerButton.Click += new System.EventHandler(this.modifyManufacturerButton_Click);
+            // 
             // Modify
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.modifyManufacturerButton);
+            this.Controls.Add(this.modifyManufacturerText);
+            this.Controls.Add(this.modifyManufacturerLabel);
             this.Controls.Add(this.modifyBackButton);
             this.Controls.Add(this.modifyPriceButton);
             this.Controls.Add(this.modifyQuantityButton);
@@ -243,6 +279,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Modify";
             this.Text = "Modify";
+            this.Load += new System.EventHandler(this.Modify_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +305,8 @@
         private System.Windows.Forms.Button modifyQuantityButton;
         private System.Windows.Forms.Button modifyPriceButton;
         private System.Windows.Forms.Button modifyBackButton;
+        private System.Windows.Forms.Label modifyManufacturerLabel;
+        private System.Windows.Forms.TextBox modifyManufacturerText;
+        private System.Windows.Forms.Button modifyManufacturerButton;
     }
 }

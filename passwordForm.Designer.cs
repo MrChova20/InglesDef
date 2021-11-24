@@ -1,6 +1,6 @@
-﻿namespace FinalCountdown
+﻿namespace EscribanoChova
 {
-    partial class passwordForm
+    partial class PasswordForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(passwordForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordForm));
             this.passwordText = new System.Windows.Forms.TextBox();
             this.passwordButton = new System.Windows.Forms.Button();
             this.passwordLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // passwordText
@@ -60,22 +61,32 @@
             this.passwordLabel.Location = new System.Drawing.Point(260, 177);
             this.passwordLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.passwordLabel.Name = "passwordLabel";
-            this.passwordLabel.Size = new System.Drawing.Size(130, 13);
+            this.passwordLabel.Size = new System.Drawing.Size(86, 13);
             this.passwordLabel.TabIndex = 2;
-            this.passwordLabel.Text = "Enter your password here:";
+            this.passwordLabel.Text = "Secret password";
             this.passwordLabel.Click += new System.EventHandler(this.passwordLabel_Click);
             // 
-            // passwordForm
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(228, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Welcome to FootLocker";
+            // 
+            // PasswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.passwordButton);
             this.Controls.Add(this.passwordText);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "passwordForm";
+            this.Name = "PasswordForm";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
@@ -88,5 +99,6 @@
         private System.Windows.Forms.TextBox passwordText;
         private System.Windows.Forms.Button passwordButton;
         private System.Windows.Forms.Label passwordLabel;
+        private System.Windows.Forms.Label label1;
     }
 }

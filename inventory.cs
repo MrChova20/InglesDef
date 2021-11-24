@@ -1,12 +1,10 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
-namespace FinalCountdown
+namespace EscribanoChova
 {
     public class Inventory
     {
@@ -33,12 +31,12 @@ namespace FinalCountdown
                 {
                     if (_product.Name == product_list[i].Name)
                     {
-                        MessageBox.Show("This product already exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("This product  exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return false;
                     }
                     if (_product.Id == product_list[i].Id)
                     {
-                        MessageBox.Show("This product already exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("This product  exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return false;
                     }
                 }

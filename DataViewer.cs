@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 
-namespace FinalCountdown
+
+namespace EscribanoChova
 {
     
     public partial class DataViewer : Form
@@ -60,14 +54,7 @@ namespace FinalCountdown
                 dataViewerText.Text = jsonString;
                   
             }
-            if (XMLradioButton.Checked)
-            {
 
-
-                string XML = main.inventory1.ToXML();
-                dataViewerText.Text = XML;
-
-            }
         }
 
         private void Button1_Click(object sender, EventArgs e)

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿
 
-namespace FinalCountdown
+namespace EscribanoChova
 {
     public class product
     {
@@ -15,15 +10,18 @@ namespace FinalCountdown
 
         private string description;
 
+        private string manufacturer;
+
         private int quantity;
 
         private double price;
 
-        public product(string name, int id, string description, int quantity, double price)
+        public product(string name,int id, string description,string manufacturer, int quantity, double price)
         {
             this.name = name;
             this.id = id;
             this.description = description;
+            this.manufacturer = manufacturer;
             this.quantity = quantity;
             this.price = price;
         }
@@ -71,6 +69,18 @@ namespace FinalCountdown
             set
             {
                 this.description = value;
+            }
+        }
+        public string Manufacturer
+        {
+            get
+            {
+                return this.manufacturer;
+            }
+
+            set
+            {
+                this.manufacturer = value;
             }
         }
 

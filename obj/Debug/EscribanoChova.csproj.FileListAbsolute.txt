@@ -1,0 +1,15 @@
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.AboutUsForm.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.Add.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.DataViewer.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.MainForm.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.Modify.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.passwordForm.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.csproj.GenerateResource.cache
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.Properties.Resources.resources
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\bin\Debug\EscribanoChova.exe.config
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\bin\Debug\EscribanoChova.exe
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\bin\Debug\EscribanoChova.pdb
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.exe
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.pdb
+C:\Users\Pablo Chova\Documents\GitHub\InglesDef\obj\Debug\EscribanoChova.csproj.AssemblyReference.cache

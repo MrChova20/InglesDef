@@ -1,4 +1,4 @@
-﻿namespace FinalCountdown
+﻿namespace EscribanoChova
 {
     partial class DataViewer
     {
@@ -32,7 +32,6 @@
             this.dataViewerText = new System.Windows.Forms.TextBox();
             this.TXTradioButton = new System.Windows.Forms.RadioButton();
             this.JSONradioButton = new System.Windows.Forms.RadioButton();
-            this.XMLradioButton = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.showDataButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -72,22 +71,9 @@
             this.JSONradioButton.Text = "json";
             this.JSONradioButton.UseVisualStyleBackColor = true;
             // 
-            // XMLradioButton
-            // 
-            this.XMLradioButton.AutoSize = true;
-            this.XMLradioButton.Location = new System.Drawing.Point(4, 63);
-            this.XMLradioButton.Margin = new System.Windows.Forms.Padding(2);
-            this.XMLradioButton.Name = "XMLradioButton";
-            this.XMLradioButton.Size = new System.Drawing.Size(40, 17);
-            this.XMLradioButton.TabIndex = 3;
-            this.XMLradioButton.TabStop = true;
-            this.XMLradioButton.Text = "xml";
-            this.XMLradioButton.UseVisualStyleBackColor = true;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.TXTradioButton);
-            this.groupBox1.Controls.Add(this.XMLradioButton);
             this.groupBox1.Controls.Add(this.JSONradioButton);
             this.groupBox1.Location = new System.Drawing.Point(363, 57);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -133,7 +119,6 @@
         private System.Windows.Forms.TextBox dataViewerText;
         private System.Windows.Forms.RadioButton TXTradioButton;
         private System.Windows.Forms.RadioButton JSONradioButton;
-        private System.Windows.Forms.RadioButton XMLradioButton;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button showDataButton;
     }

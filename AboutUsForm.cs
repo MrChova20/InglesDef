@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FinalCountdown
+namespace EscribanoChova
 {
     public partial class AboutUsForm : Form
     {
@@ -28,6 +28,11 @@ namespace FinalCountdown
         }
 
         private void AboutUsForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
